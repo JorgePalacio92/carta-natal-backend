@@ -1,0 +1,21 @@
+{
+  "name": "carta-natal-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "tsx watch server.ts"
+  },
+  "dependencies": {
+    "sweph": "^2.10.3-8",
+    "luxon": "^3.5.0",
+    "tz-lookup": "^6.1.25"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/luxon": "^3.7.0"
+  }
+}
